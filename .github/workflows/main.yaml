@@ -1,4 +1,3 @@
-
 name: CI-CD-Flask_pipeline-to-Beanstalk
 #Envirements Declaration
 env:
@@ -19,7 +18,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE
     - name: Git clone the repo
       uses: actions/checkout@v2
 
